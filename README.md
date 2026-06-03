@@ -1,29 +1,29 @@
-# USB Type-C Protection PCB
+# LED Chaser PCB Design
 
 ## Overview
-Four-layer USB Type-C protection system designed for safe power delivery and device protection.
+This project implements a sequential LED chaser using the NE555 Timer and CD4017 Decade Counter.
+
+## Components Used
+- NE555 Timer IC
+- CD4017 IC
+- LEDs
+- Resistors
+- Capacitors
+- Potentiometer
+
+## Working
+The NE555 Timer operates in astable mode and generates clock pulses.
+These pulses are fed to the CD4017 Decade Counter, which sequentially activates LEDs, creating a chasing effect.
 
 ## Features
-- Overvoltage Protection
-- Overcurrent Protection
-- Reverse Current Protection
-- ESD Protection
-- USB-C Audio Accessory Support
+- Adjustable blinking speed
+- Single-layer PCB design
+- Low-cost implementation
+- Easy fabrication and testing
 
-## Main Components
-- TPS25923 eFuse
-- TUSB320 Controller
-- Reverse Blocking MOSFET
+## Tools Used
+- PCB Design Software
+- Soldering and Testing Tools
 
-## PCB Stackup
-Top Layer – Signal Routing
-Inner Layer 1 – Ground Plane
-Inner Layer 2 – Power Plane
-Bottom Layer – Signal Routing
-
-## EMI Considerations
-- Ground Plane
-- Controlled Impedance
-- Differential Pair Routing
-- Length Matching
-- Reduced Crosstalk
+## Author
+Deepika Suravarapu
